@@ -15,7 +15,7 @@ Step 4: go to phpMyadimin and create a database called FYP
 
 Step 5: click on this link https://drive.google.com/file/d/1qmyckuMXA8S1Ft6X-RpGxW2EgOCqDPE-/view?usp=sharing  to get the database file called FYP.sql
 
-Step 6 : import the FYP.sql to phpMyadimin
+Step 6 : import the FYP.sql to phpMyadmin
 
 Step 7:  run the project
 
