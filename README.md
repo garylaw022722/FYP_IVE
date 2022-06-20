@@ -13,7 +13,9 @@ Step 3: selected the jar file to resolve one by one.
 
 Step 4: go to phpMyadimin and create a database called FYP
 
-Step 5: import FYP.sql file.\n
+Step 5: click on this link https://drive.google.com/file/d/1qmyckuMXA8S1Ft6X-RpGxW2EgOCqDPE-/view?usp=sharing  to get the database file called FYP.sql
 
-Step 6:  run the project
+Step 6 : import the FYP.sql to phpMyadimin
+
+Step 7:  run the project
 
