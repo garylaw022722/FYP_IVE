@@ -9,7 +9,7 @@ Step 1: open NetBean IDE and select this project after being downloaded.
 
 Step 2: right click>Resolve Reference Problem
 
-Step 3: selected the jar file to resolve one by one.
+Step 3: selected the jar file to resolve each row one by one.
 
 Step 4: go to phpMyadimin and create a database called FYP
 
