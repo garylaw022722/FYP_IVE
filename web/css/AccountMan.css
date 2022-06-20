@@ -1,0 +1,338 @@
+table{
+    width:50%;
+    border: 1px solid gainsboro;
+    collapse: none;
+    display: inline-block;
+}
+
+th,td{
+    text-align: center;
+    padding: 5px 0px;
+    width: 5%;
+    font-family: "Apple Braille";
+    color :gray(0.1);
+}
+th{font-size: 15px;}
+
+
+#btnDetails ,#btn1{
+    border-radius: 3px;
+    background-color: #7ad9d6;
+    border: none;
+    color: white;
+}
+
+#btn1{
+    background-color: #7ac6d9;
+}
+
+#heading{
+    position: fixed;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 5px;
+    z-index:1;
+    background-color: #ffffff;
+    border-bottom: 1px solid gainsboro;
+    width: 100%;
+    height: 70px;
+
+}
+#Control{
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+
+.mainContent{
+    margin-left: 5%;
+    height: 1002px;
+    margin-top: -120px;
+}
+
+
+tr{
+    border-bottom: 1px solid gainsboro;
+}
+table{
+    color: snow;
+    display: inline-block;
+    margin-top: 128px;
+    /*color: #61adc8;*/
+    /*background-color: #637dc8;*/
+    margin-left: 10px;
+
+}
+.searching{
+    width: 30%;
+    height: 30px;
+    border:1px solid teal;
+    border-radius: 20px;
+    padding: 4px 0px;
+}
+
+#ControlOpt div{
+    float: right;
+    color: red;
+    margin-left: 10px;
+    color: #b1adad;
+    margin-bottom: 10px;
+
+
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+#ControlOpt{
+    padding-top: 80px;
+    padding-right: 86px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid gainsboro;
+    position: fixed;
+}
+.search-box{
+    /*position: absolute;*/
+    height:40px;
+    margin-top: 15px;
+    margin-left: 40%;
+    border-radius:40px;
+    border: 1px solid;
+
+}
+.search-box ,input{
+    background-color: #f3f2f2;
+}
+
+input{
+    border: 1px solid red;
+    margin-top: -10px;
+    transform: translateX(180);
+    outline: none;
+    color: green;
+    padding: 0 15%;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-style: none;
+    display: none;
+}
+hr{
+    border-color: gainsboro;
+}
+#title{
+    font-family: "SansSerif";
+    color: #61adc8;
+    display: inline-block;
+    margin-right: 37%;
+    /*border: 1px solid green;*/
+}
+
+#No{
+    width: 7%;
+
+}
+td{
+    color: #4c4c4c;
+}
+th{
+    width: auto;
+}
+
+#content{
+    text-align: left;
+    margin-top: 5px;
+    width: 100%;
+    padding-left: 20px;
+
+}
+#build{
+    width: 25%;
+}
+#address{
+    font-size: 12px;
+    color: #a5adb5;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+#sa{
+    padding: 8px;
+    width: 100%;
+    height: 80px;
+    display:flex;
+}
+
+
+td{
+    /*border: 1px solid green;*/
+    background-color: #fffdfd;
+    height:  90px;
+    color: #a5adb5;
+}
+
+img{
+    width: 100% ;
+    height: 100%;
+}
+body{
+    /*background:linear-gradient(#d5ecfa,ghostwhite,whitesmoke);*/
+    color: #fffdfd;
+}
+
+.search-btn{
+    color:rebeccapurple;;
+    float: right;
+    width: 38px;
+    background-color: #b1dcea;
+    height: 38px;
+    border-radius: 50%;
+    color: #61adc8;
+    justify-content: center;
+    display:flex;
+    flex-grow: 3;
+    align-items: center;
+    /*margin-top: -10px;*/
+
+}
+#sa{
+    display: inline-block;
+}
+
+
+#hh{
+    width: 50%;
+
+}
+
+
+#AccountOpt{
+    padding-top: 15px;
+}
+
+#hh{
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+/*#hh div{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    border: 1px solid yellow;*/
+/*    color:  rebeccapurple;*/
+/*}*/
+#imageBox{
+    width: 40%;
+    height:100%;
+    padding: 10px ;
+    margin-right: 10px;
+
+}
+#fdw{
+    padding-top:20px;
+    text-align: left;
+}
+
+#Home{
+    margin-top: 100px;
+}
+
+.ani{
+    height: 100vh;
+    transition-duration: 1s;
+}
+.ani2{
+    backgroundColor:"yellow";
+}
+#UserNameA{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: #5c7ac1;
+    margin: 15px 20px;
+}
+#UserNameA>*{
+    text-align: center;
+    margin-top: 10.5px;
+}
+
+input::placeholder{
+    transform: translateX(180);
+}
+#NoMatch{
+    color: gainsboro;
+    text-align: center;
+    height: 500px;
+    padding: 180px 0px;
+    width: 100%;
+}
+#NoMatch >h1{
+    height: 100%;
+    width: 100%;
+}
+td{
+    color: rgba(0,0,0,0.6);
+}
+/*#ControlOpt div:hover{*/
+/*    color: #6389e5;*/
+/*    cursor: pointer;*/
+/*}*/
+
+#pageButton {
+
+    width: 100%;
+    /*border: 1px solid red;*/
+    margin-top: 40px;
+    height: 50px;
+    padding: 10px;
+
+}
+
+#pageButton div{
+    float: right;
+    color: #61adc8;
+    height: 30px;
+    width: 30px;
+    border: 1px solid ;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+#pageButton span{
+    padding: 10px ;
+    padding-top: 5px;
+    display: inline-block;
+    width: 100%;
+    /*border: 1px solid indianred;*/
+}
+#more span{
+    /*border: 1px solid indianred;*/
+    padding-top: 5px;
+
+    padding-left:6px;
+
+}
+.PageHoverE{
+    background:linear-gradient(to right , #d3efef, #c2f3ef, #94eeef);
+    cursor: pointer;
+
+}
+
+#da{
+    display: block;
+}
+
+#th{
+    /*background-color: #61adc8;*/
+}
+
+#Home{
+    margin-top: 0;
+}
+td{
+    font-size: 16px;
+}
+
+#ControlOpt div{
+    margin-right: 10px;
+}

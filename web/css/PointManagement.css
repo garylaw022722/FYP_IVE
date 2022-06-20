@@ -1,0 +1,314 @@
+#StaffNav {
+    background: #3f4a56;
+    width: 100%;
+    height: 60px;
+}
+
+#classifier {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    /*height: 40px;*/
+    /*background: #eef1f6;*/
+    border: 1px solid gainsboro;
+    padding: 10px 0px;
+}
+
+#classifier div {
+    font-family: AppleMyungjo;
+    font-size: 15px;
+    margin-right: 30px;
+
+
+}
+
+body {
+    background: #eef1f6;
+}
+
+#Content {
+    width: 85%;
+    position: fixed;
+    z-index: 10;
+    top: 90px;
+    left: 10%;
+
+
+}
+
+th {
+    color: #f6f3f3;
+    font-family: AppleMyungjo;
+    text-align: center;
+    background: #3f4a56;
+
+
+}
+
+td {
+    text-align: center;
+}
+
+#NewItem, #RemoveAll {
+    float: right;
+    border: none;
+    color: white;
+    background: #585e70;
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+}
+
+#RemoveAll {
+    margin-left: 30px;
+    background: #e3276a;
+    margin-right: 30px;
+}
+
+#edit, #remove {
+    color: #aeb1b5;
+    font-size: 15px;
+}
+
+#edit:hover, #remove:hover {
+    color: blue;
+}
+
+
+tr {
+    border: none;
+
+}
+
+#remove {
+    margin-right: 20px;
+}
+
+#point {
+    border-radius: 3px;
+}
+
+#pageNav {
+    display: flex;
+    /*border: 1px solid red;*/
+    /*border: 1px solid red;*/
+    flex-direction: row;
+}
+
+#pageNav div {
+
+}
+
+#before, #after {
+    background: #3f4a56;
+    color: white;
+    border: none;
+    outline: none;
+    width: 35px;
+    /*float: right;*/
+
+
+    padding-top: 3px;
+    height: 30px;
+    text-align: center;
+}
+
+#before {
+    /*margin-right: 5px;*/
+    border-radius: 3px 0px 0px 3px
+}
+
+#after {
+    /*margin-left: 10px;*/
+
+    border-radius: 0px 3px 3px 0px
+}
+
+#toolBar {
+    position: relative;
+    /*left: 60%;*/
+}
+
+#Se {
+    border: 1px solid #aeb1b5;
+    width: 230px;
+    border-radius: 3px;
+    padding: 2px 0px;
+    padding-left: 20px;
+    height: 30px;
+    /*text-align: center;*/
+    margin-right: 20px;
+}
+
+#go {
+    margin-right: 460px;
+    background: #3f4a56;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 3px 16px;
+    margin-top: 2px;
+}
+
+#pageNumber {
+    margin-right: 27px;
+    font-size: 15px;
+    display: inline-block;
+    padding-top: 2px;
+}
+
+#glass{
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2402;
+    background: rgba(0, 0, 0, 0.03);
+    overflow: auto;
+}
+
+#f2 {
+    top: 80px;
+    left: 25%;
+    /*border: 1px solid red;*/
+    position: absolute;
+    padding: 20px;
+    z-index: 2604;
+    width: 40%;
+    height: 485px;
+    background: rgba(255, 255, 255, 0.9);
+
+    box-shadow: 1px 1px 10px #2e2e30;
+}
+
+#SetTitle {
+    /*background: #5ba6b7;*/
+    border: 1px solid;
+    color: #fc5a9f;
+    border-radius: 4px;
+    display: inline-block;
+    /*background: #5ba6b7;*/
+    width: 30%;
+    text-align: center;
+    font-family: AppleMyungjo;
+    padding: 4px 0px;
+    margin-bottom: 10px;
+}
+
+#newPointTable  {
+    margin-top: 10px;
+
+    width: 100%;
+}
+
+#newPointTable th ,#updateTable th{
+    padding: 5px 0px;
+    background: #414345;
+}
+
+#addRow, #removeRow {
+    float: right;
+    border: none;
+    width: 100px;
+    border-radius: 1px;
+    background: #acb2b5;
+    color: #ffffff;
+}
+
+#removeRow {
+    background: #e76b9a;
+    margin-right: 20px;
+}
+
+#newPointTable td  ,#updateTable td{
+    height: 30px;
+    border: 1px solid gainsboro;
+    padding: 0;
+}
+
+#newPointTable td input , #updateTable td input {
+    text-align: center;
+    background: none;
+    border: none;
+    outline: none;
+    margin: 0;
+
+}
+
+#removeRow {
+
+}
+
+#bunSet button {
+    float: right;
+
+}
+
+#bunSet {
+    position: absolute;
+    top: 430px;
+
+    left: 50%;
+}
+
+#create, #cancel {
+    margin-left: 30px;
+    width: 100px;
+    color: white;
+    border: none;
+    /*background: red;*/
+}
+
+#create {
+    background: #3f4a56;
+    color: white;
+    border: none;
+}
+
+#cancel {
+    background: #b8b8b8;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+#left #itemCall{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 70px;
+    /*background: red;*/
+}
+
+#sideDescription{
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: AppleMyungjo;
+    text-align: center;
+    color: #6e7e8c;
+}
+#sideLogo{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#spLine{
+background:gainsboro;
+    width: 80%;
+    margin: auto;
+    margin-top: -20px;
+    height: 2px;
+}
+
+.updateSet{
+    background: red
+}
+
+#updateTable{
+    margin-left:30px;
+}

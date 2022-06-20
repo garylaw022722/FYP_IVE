@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    
+    <welcome-file-list>
+        <!--<welcome-file>t1.jsp</welcome-file>-->
+        <!--<welcome-file>index.jsp</welcome-file>-->
+        <!--<welcome-file>demoSa.jsp</welcome-file>-->
+        <!--<welcome-file>customBook.jsp</welcome-file>-->
+        <!--<welcome-file>readBookGallery.jsp</welcome-file>-->
+        <!--<welcome-file>t1.jsp</welcome-file>-->
+        <!--<welcome-file>pointList.jsp</welcome-file>-->
+        <!--<welcome-file>comic2.jsp</welcome-file>-->
+        <welcome-file>memberRegForm.jsp</welcome-file>
+        <!--<welcome-file>html/slideShow.html</welcome-file>-->
+        <!--<welcome-file>selectComicPage.jsp</welcome-file>-->
+
+        <!--<welcome-file>Main.jsp</welcome-file>-->
+
+
+        <!--<welcome-file>customBook.jsp</welcome-file>-->
+        <!--<welcome-file>meetingRequestPanel.jsp</welcome-file>-->
+        <!--<welcome-file>EditorController.jsp</welcome-file>-->
+        <!--<welcome-file>ClientSearch.jsp</welcome-file>-->
+
+        <!--<welcome-file>h/welcome-file>-->
+
+        <!--<welcome-file>AdminControl.jsp</welcome-file>-->
+                    <!--<welcome-file>s2.jsp</welcome-file>-->
+
+    </welcome-file-list>
+  
+          
+    <session-config>
+        <session-timeout>
+        -1
+        </session-timeout>
+    </session-config>
+    <context-param>
+        <param-name>dbUrl</param-name>
+        <param-value>jdbc:mysql://localhost:3306/ITP4511_ASSM</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dbUser</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dbPassword</param-name>
+        <param-value></param-value>
+    </context-param>
+</web-app>

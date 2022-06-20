@@ -1,0 +1,38 @@
+#clientSearchContainer{
+    position: absolute;
+    width: 100%;
+    /*background: #004085;*/
+    /*height: 0px;*/
+    top:240px;
+}
+
+#clientEngine{
+    width: 50%;
+   /*background: red;*/
+       
+    padding: 10px;
+    margin-left: 20%;
+}
+
+#resultSet{
+    margin-left: 20%;
+    width: 50%;
+    border:1px solid gainsboro;
+    /*background: #5ba6b7;*/
+}
+
+#resultSet div{
+    height: 50px;
+    color:  gray
+
+}
+#resultSet div:hover{
+    background:#e1e1e1
+}
+#searchBtnX{
+    background: #6e7e8c;
+    color: white;
+    padding: 5px;
+    width: 8%;
+    margin-left: 1%;
+}

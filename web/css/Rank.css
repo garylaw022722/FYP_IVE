@@ -1,0 +1,145 @@
+#rankTypeContainer {
+    width: 90%;
+    /*border: 1px solid red;*/
+    height: 520px;
+    margin: auto;
+
+}
+
+body {
+    background-color: #eef1f6;
+}
+
+#rList {
+    margin-top: 20px;
+    box-shadow:  2px 4px  3px rgba(115, 114, 114, 0.2);
+    background: #ffffff;
+    background: white;
+    position: absolute;
+    z-index: 30;
+    width: 100%;
+    /*box-shadow: 2px 2px 3px */
+}
+
+#rankTypeContent::-webkit-scrollbar ,#typeheading::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+#rankTypeContent {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+}
+
+#rankTypeContent #rankListContainer {
+    display: inline-block;
+    min-width: 33.3%;
+    height: 100%;
+
+    /*border: 1px solid red;*/
+    margin-right: 2%;
+
+}
+
+h4 {
+    /*border-bottom: 1px solid #dce1ec;*/
+    padding-bottom: 10px;
+    color: #363d45;
+
+}
+
+#rank {
+    color: #d76b8b;
+    font-size: 22px;
+    padding-bottom: 8px;
+}
+
+#rkItem {
+    margin-bottom: 5px;
+    /*box-shadow: 0px 1px 1px ;*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 23%;
+    margin: 5px;
+
+}
+
+#imageViewer {
+    width: 30%;
+    /*border: 1px solid red;*/
+    padding: 4px;
+}
+
+#imageViewer div {
+    width: 100%;
+    height: 100%;
+}
+
+#textContent {
+    width: 70%;
+    /*border: 1px solid red;*/
+    padding: 5px 20px;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#listCN {
+    font-size: 18px;
+    font-family: "Apple Braille";
+    color: #3f4a56;
+}
+
+#listAth {
+    display: inline-block;
+    font-size: 16px;
+    color: #aeb1b5;
+    padding-top: 4px;
+}
+
+#typeheading{
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    height:50px;
+    /*background:#eef1f6;*/
+    font-family: "Al Nile";
+    font-size: 15px;
+    /*box-shadow: inset 1px 1px 7px   rgba(0,0,0,0.3);*/
+}
+#typeheading div{
+    min-width: 15%;
+    height: 98%;
+    color: #d1d2d4;
+    border-bottom: 1px solid #d1d2d4;
+    /*background-color: red;*/
+    /*margin-right: 5px;*/
+    text-align: center;
+}
+#typeheading div span{
+/*border: 1px solid red;*/
+/*  width: 100%;*/
+/*    height: 100%;*/
+    margin-top: 4px;
+    display: inline-block;
+}
+/*#typeheading div:hover{*/
+/*    color: #ef4278;*/
+/*    border-bottom: 4px solid  ;*/
+/*}*/
+
+#tbar{
+    background: #ef4278;
+    /*width:215.391px;*/
+    height: 4px;
+    position: absolute;
+    z-index: 2;
+    top:47px
+}

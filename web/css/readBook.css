@@ -1,0 +1,218 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+.readingArea {
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.chapter {
+    padding: 15px 0%;
+    position: relative;
+    width: 65%;
+   
+    margin:auto;
+    overflow: auto;
+}
+.chapterF{
+    width: 88%;
+        
+}
+.bothSideModePage {
+    padding: 20px 0px;
+    background-color: #fffdfd;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+
+}
+
+.bothSideModePage > * {
+    margin: 0px 20px;
+    width: 730px;
+    height: 85vh;
+}
+
+.oneSideMode {
+    display: none;
+}
+
+button {
+    position: absolute;
+    z-index: -1;
+    left: 20px
+}
+
+.nextPageEffect {
+    animation: fadeOutLeft;
+    animation-duration: 12s;
+}
+
+.bothSideMode {
+
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+}
+
+img, svg {
+    height: 100%;
+    width: 100%;
+}
+
+.expandScreen {
+    fill: #e2387b;
+}
+
+#fullScreen {
+    border: 1px solid red;
+    height: 30px;
+    display: inline-block;
+
+}
+
+
+.transpageNav {
+    position: relative;
+    bottom: 60vh;
+    width: 100%;
+    height: 100%;
+}
+
+.transpageNav div {
+    width: 50px;
+    padding: 20px 0px;
+    height: 75px;
+}
+.transpageNav:hover{
+    color: #e2387b;
+}
+
+.bottomNav {
+    width: 100%;
+    height: 40px;
+    /*background:linear-gradient(#282830, #2f2f47, #14141d);*/
+    /*background:linear-gradient(#282830, #2f2f34, #56565a);*/
+    background-color: #1a1414;
+    opacity: 0.8;
+    /*position: absolute;*/
+    z-index: 2;
+    /*bottom: 20px;*/
+    opacity: 0.9;
+    font-family: "Arial Rounded MT Bold";
+}
+
+.rangeSlider {
+    height: 100%;
+    display: flex;
+
+}
+
+.rangeSlider > div {
+    padding: 0.7% 1%;
+    border: 1px solid greenyellow;
+    /*position: ;*/
+}
+
+.slidecontainer {
+    flex-grow: 1.5;
+    transform: rotate(180deg);
+}
+
+.backToMainNav div {
+    width: 50px;
+    height: 25px;
+    margin-top: -3px;
+}
+
+.slidecontainer > * {
+    display: block;
+    margin: 0.7% auto;
+}
+
+.backToMainNav, .preChapter, .nextChapter {
+    fill-opacity: 0.7;
+    fill: #fffdfd;
+    color: #fffdfd;
+    opacity: 0.7;
+}
+
+.backToMainNav:hover, .preChapter:hover, .nextChapter:hover {
+    color: #e2387b;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 3px;
+
+    background: #d3d3d3;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 20px;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    /*border-radius: 50%;*/
+    background-color: #e2387b;
+}
+
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #e2387b;;
+    cursor: pointer;
+}
+
+.pre {
+    float: right;
+    margin-right: 20px;
+}
+
+.next {
+    float: left;
+    margin-left: 20px;
+    height: 100%;
+
+
+
+}
+
+.prePagebtn, .nextPagebtn {
+    fill: #fffdfd;
+    fill-opacity: 0.7;
+}
+
+.fullScreenEffect_Height {
+    height: 93vh
+}
+
+
+
+
+.pageShow{
+    width: 40px;
+    height: 30px;
+    background-color: #52527c;
+    position: absolute;
+    z-index: 4;
+    top: 30px ;
+    /*left: 96px;*/
+}

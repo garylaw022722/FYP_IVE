@@ -1,0 +1,30 @@
+#calendar{
+    width: 30%;
+    height: 250px;
+    /*background-color: white;*/
+    /*height: 100vh;*/
+    /*box-shadow: 1px 1px 10px rgba(0,0,0,0.3);*/
+
+}
+.fc-header-toolbar fc-toolbar{
+  color: #363d45;
+}
+#calendar table{
+
+    background-color: white;
+
+}
+
+#calendar th{
+    color: #e9fafd;
+    background: #3b506b;
+}
+#calendar  tbody td {
+    height: 100%;
+    background-color:rgba(255,255,255,0.3);
+    border: 1px solid gainsboro;
+    border:none;
+}
+#calendar #tbody{
+    height: 100%;
+}

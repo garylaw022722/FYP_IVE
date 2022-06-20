@@ -1,0 +1,100 @@
+.ldBar {
+    position: relative;
+    color: cyan;
+}
+.ldBar.label-center > .ldBar-label {
+    position: absolute;
+    top: 48%;
+    left: 50.5%;
+    font-size: 50px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 3px #fff;
+
+}
+.ldBar-label:after {
+    content: "%";
+    display: inline;
+   
+}
+#progHeading{
+    
+    font-size: 20px;
+    display: flex;
+    margin-top: -19%;
+    margin-left: 44%;
+    height: 450px;
+    color: gainsboro
+        
+}
+
+#progressBox{ 
+    padding: 50px;
+    width:60%;
+    height: 400px;
+    top:120px;
+    
+     background:linear-gradient(#1f1c40, #0a0e26, #141e5d);
+     background: #2e333c;
+     /*background:linear-gradient(#1f1c40, #0a0e26, #0a102f);*/
+     /*background:linear-gradient(#1f1c40, #0a0e26, #d78ba3);*/
+     /*background:linear-gradient(#d4d1e3, #0a0e26, #d78ba3);*/
+     
+    margin-left: 15%;
+   
+
+}
+
+#remaining{
+    display: flex;
+    margin-top: -32%;
+    margin-left: -2%;
+    font-size: 24px;
+    color: #66ced2;
+   font-family:  Arial, Helvetica, sans-serif;
+}
+
+#time{
+    margin-left:-2%;
+    margin-top: -1%;
+    color: gainsboro
+  
+}
+
+#FileSize{
+     margin-left:85%;
+     margin-top: 10%;
+     color:#66ced2;
+     font-size: 24px;    
+}
+#fs{
+    color: gainsboro;
+    margin-top: 40px;
+    font-size: 15px;
+}
+#msg{
+    font-size: 15px;
+    color :#31a8bc;
+    margin-left: -2%;
+    margin-top: 20%; 
+}
+
+#UploadTitle{    
+   color:  #61adc8;
+    display:inline-flex;
+    width: 40%;
+    font-size: 30px;
+    /*border: 1px solid red;*/
+     margin-left: 10px;
+     padding-top: -2px
+    
+}
+#hd{
+    border: 1px solid gainsboro;
+    height: 70px;
+    
+}
+#ulogo{
+    width: 30%;
+    height: 150px;
+}

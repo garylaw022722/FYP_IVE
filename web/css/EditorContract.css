@@ -1,0 +1,310 @@
+#contractTab {
+    /*border: 1px solid red ;*/
+    width: 100%;
+    padding-left: 20px;
+    height: 500px;
+}
+
+#FindContract {
+    margin-top: 5px;
+    border: none;
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #aeb1b5;
+    border-radius: 2px;
+    /*box-shadow: 1px 2px #6e7e8c;*/
+}
+
+#titleField {
+    font-family: "Al Nile";
+    color: #aeb1b5;
+    /*text-shadow: 2px 2px  #3f4a56;*/
+    font-size: 26px;
+    /*font-size: 30px;*/
+}
+
+#NewContract ,#uploadContractBTN{
+    position: absolute;
+    top: 40px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    left: 80%;
+    color: #6e7e8c;
+    border: 1px solid gainsboro;
+    background: #e8f2f8;
+
+}
+
+#ConSearch {
+    color: #3b506b;
+    border: 1px solid gainsboro;
+    background: #969cac;
+    color: white;
+    font-size: 13px;
+    border-radius: 4px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 32%;
+    padding: 5px 10px;
+    width: 6%;
+    padding-left: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+#ContractLayOut1 {
+    margin-top: -410px;
+    width: 65%;
+    height: 360px;
+    background: white;
+    margin-left: 16px;
+    /*box-shadow: 1px 2px 2px #808f9b;*/
+}
+
+#headingSK {
+    margin-top: 10px;
+    background: #969cac;
+    background: #636b7c;
+    padding: 10px;
+
+
+    color: #eef1f6;
+}
+
+#fieldSet {
+    margin-top: 2%;
+    display: inline-block;
+    margin-bottom: 10px;
+    /*border: 1px solid red;*/
+}
+
+#fieN {
+    font-size: 16px;
+    color: #3f4a56;
+    font-family: Roboto;
+    margin-left: 8px;
+    /*display: inline-block;*/
+    margin-right: 20px;
+}
+
+#fn, #ln, #email, #conNum, #dest, #building, #floor ,#bank{
+    /*padding: 5px 0px;*/
+    border: none;
+    border-bottom: 1px solid #dcdcdc;
+    text-align: center;
+    background: none;
+    /*background: #ecefef;*/
+    /*box-shadow: 0px 2px 10px  #3f4a56;*/
+}
+
+#email {
+    width: 60%;
+    background: #f0f1f3;
+}
+
+#conNum {
+    width: 30%;
+    /*background: #aeb1b5;*/
+}
+
+#gen {
+    /*margin-left: -10px;*/
+    color: #3f4a56;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#must {
+    margin-left: 15px;
+}
+
+#hkidA,
+#hkidD,
+#hkidL {
+    border: 1px solid #aeb1b5;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+#hkidA {
+    width: 5%;
+    margin-left: -2%;
+
+}
+
+#hkidD {
+    width: 15%;
+    margin-right: 1%;
+    margin-left: 1%;
+
+}
+
+#hkidL {
+    width: 5%;
+
+}
+
+#radioSet {
+    display: inline-block;
+    /*margin-top: 3px;*/
+    padding-top: 4px;
+}
+
+#Year, #Day, #Month {
+    border: 1px solid #aeb1b5;
+    border-radius: 3px;
+    width: 10%;
+    margin-left: 10px;
+}
+
+#Month {
+    margin-left: 0px;
+}
+
+#ContractLayOut2 {
+    /*border: 1px solid red;*/
+    width: 65%;
+    background: white;
+    height: 300px;
+    margin-left: 16px;
+    margin-top: 30px;
+}
+
+
+#ContractResult {
+    border: 1px solid gainsboro;
+    width: 30%;
+    height: 500px;
+    position: absolute;
+    z-index: 40;
+    left: 67%;
+    top: 109px;
+    background: white;
+}
+
+#dest, #floor {
+    margin-left: 10.3%;
+    /*background: #3b506b;*/
+    margin-top: 10px;
+}
+
+#dest, #building, #floor {
+    width: 40%;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+#floor {
+    margin-left: 50px;
+}
+
+#cName {
+    width: 80%;
+
+}
+
+.fs {
+    margin-left: 7%;
+    margin-top: 5px;
+    padding: 2px 2px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #cccfd2;
+}
+
+.fss {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#penName {
+    width: 80%;
+}
+
+#ctLogo {
+    background: #c483ef;
+    color: white;
+    margin-left: 16px;
+    padding: 4px 10px 0px;
+    font-size: 14px;
+    font-family: "Al Nile";
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#typeList {
+    /*border: 1px solid red;*/
+    width: 90%;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+#typeList div {
+    width: 30%;
+    height: 30px;
+    /*border: 1px solid red;*/
+    padding-left: 10px;
+    /*background: #aeb1b5;*/
+    margin-bottom: 2px;
+}
+
+#tn {
+    color: #aeb1b5;
+    padding-left: 7px;
+}
+
+#paymentMethod {
+    background: #fc5a9f;
+    color: white;
+
+    margin-top: 10px;
+    padding: 4px 10px 0px;
+    font-size: 14px;
+
+    margin-bottom: 10px;
+    /*display: inline-block;*/
+    font-family: "Al Nile";
+}
+
+#paymentList {
+    margin-left: 16px;
+}
+#mpm,#cmp,#prp{
+    padding-left: 10px;
+    color: #aeb1b5;
+}
+#paymentConponent{
+    margin-top: 5px;
+    margin-left: 10px;
+
+
+}
+
+#price
+{margin-top: -20px;
+    margin-left: 8px;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 1px solid #bac1c1;
+}
+#price ,#period{
+
+    width: 50%;
+    margin-bottom: 10px;
+}
+#period{
+    width: 30%;
+    margin-right: 10px;
+    /*height: 20px;*/
+    text-align: center;
+}
+
+
+
+

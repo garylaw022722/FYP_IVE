@@ -1,0 +1,183 @@
+#ComicIntro{
+
+    border: 1px solid gainsboro;
+    background: white;
+    position: absolute;
+    z-index: 99;
+    width: 78%;
+    top:90px;
+    border-radius: 4px;
+    padding: 10px;
+    left: 2%;
+}
+#heading{
+
+    width:100%;
+    height: 50px;
+}
+#cover{
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+
+    /*border: 1px  solid gainsboro;*/
+}
+
+
+#deatails{
+    display: inline-flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 100%;
+}
+
+#Content{
+    /*border: 1px solid red;*/
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+
+
+}
+#recommend{
+    position: absolute;
+    width: 18%;
+
+    height: 100vh;
+    left:81%;
+    top: 90px;
+    /*float: right;*/
+    background-color: #f1f3f3;
+    border: 1px solid gainsboro;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#CoverBox{
+    width: 100%;
+    height: 100%;
+    border: 1px solid gainsboro;
+
+}
+
+#ComicTitle{
+
+    color: #41638d;
+    /*width: 30%;*/
+    background-color: #e94582;
+    color: white;
+    display: inline-flex;
+    border-radius: 4px;
+    padding: 5px;
+    /*color: #f5d3e1;*/
+    /*border: 1px solid gainsboro;*/
+    /*font: bold;*/
+    border-bottom: 1px dotted gainsboro;
+    font-family: SansSerif;
+    font-size: 16px;
+    /*background-color: #3c3c43;*/
+
+}
+
+#type span{
+    border-radius: 2px;
+    color: white;
+    background-color: #9ad6e3;
+}
+
+#title{
+    margin-left: 10px;
+    font-size: 18px;
+    color: #b1b4bc;
+}
+
+#ComicType{
+    display:  inline-block;
+}
+#ComicType span{
+    color: #7589ac;
+    border-radius: 5px;
+    background-color: #c8e0e9;
+    padding: 2px  10px 2px;
+    margin-left: 4px;
+    font-size: 14px;
+}
+#upDateTime{
+
+    font-size: 16px;
+}
+#btn{
+    display: flex;
+    flex-direction: row;
+}
+
+#read ,#AutoPayment{
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    height: 45px;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-right: 10px;
+}
+#read{
+    margin-right: 20px;
+    background-color: #365b80;
+}
+#AutoPayment{
+
+    background-color: #293c67;
+}
+
+.ct{
+    margin-bottom: 100px;
+}
+#chapTitle{
+    width: 100%;
+    display: inline-block;
+    border: 1px solid gainsboro;
+            height:40px;
+    padding: 5px;
+    color: #247783;
+    margin-top: 20px;
+    border-left: 8px solid  cornflowerblue;
+}
+#chapterList{
+    display: block;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 5%;
+
+
+}
+
+#chapterList>div{
+    border: 1px solid gainsboro;
+    border-top: none;
+    border-radius: 3px;
+    height: 120px;
+
+}
+
+#chapter{
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: flex;
+}
+#ChapterCover{
+    width: 20%;
+    height: 100%;
+}
+
+#epdate,#epiTitle,#point ,#episodeNum{
+    color: #3f599d;
+    display: inline-flex;
+    margin: 40px;
+    margin-top: 20px;
+}
+
+
+
